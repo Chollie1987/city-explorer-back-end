@@ -1,0 +1,16 @@
+{
+  "name": "city-explorer-back-end",
+  "version": "1.0.0",
+  "description": "api server for my application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christina Hollie",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
