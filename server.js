@@ -39,6 +39,11 @@ app.get('/weather', async (request, response, next) => {
     catch (error) {
         next(error);
     }
+    // let url = `http://api.weatherbit.io/v2.0/forecast/daily?&key=${process.env.WEATHERBIT_KEY}&lat=${lat}&lon=${lon}&days=5`;
+    // axios.get(url)
+    //     .then(response => response.data.weather.map(weather))
+    //     .then(formattedData => response.status(200).send(formattedData))
+    //     .catch(err => next(err))
 
 });
 
